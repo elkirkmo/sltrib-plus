@@ -1,0 +1,5 @@
+#header > #header-bottom-left {background-image: none !important; height: 50px !important;}
+#header > .pagename {margin-top:30px !important}
+.side a[href="https://www.reddit.com/r/exmormon/hot"] , .side a[href="https://mm.reddit.com/r/exmormon"] , .side a[href="https://nm.reddit.com/r/exmormon"] {
+		top: 52px !important;
+	}

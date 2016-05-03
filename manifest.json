@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+
+	"name" : "r/exmormon Header Hider",
+	"description" : "Making Browsing Reddit more discrete",
+	"version" : "0.1",
+
+"permissions": [
+	"tabs",
+    "https://www.reddit.com/*",
+    "http://www.sltrib.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/r/exmormon/*", "http://*.sltrib.com/*"],
+      "js": ["popup.js"],
+      "css": ["hider.css"],
+      "run_at": "document_end"
+    }],
+ "page_action": 
+ {
+	"default_icon": "favicon.png"
+ }
+
+}
+
