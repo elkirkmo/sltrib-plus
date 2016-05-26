@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name" : "r/exmormon Header Hider",
-	"description" : "Making Browsing Reddit more discrete",
-	"version" : "0.1",
+	"name" : "SLTrib enhancer",
+	"description" : "Make The Trib Great Again",
+	"version" : "0.2",
 
 "permissions": [
 	"tabs",
