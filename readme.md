@@ -13,7 +13,7 @@
         <li>Navigate to <a href="chrome://extensions" href="_blank">chrome://extensions</a> or via hamburger menu -> Tools -> Extensions.</li>
         <li>Enable Developer mode by ticking the checkbox in the upper-right corner.</li>
         <li>Click on the "Load unpacked extension..." button.</li>
-        <li>Select the directory containing your unpacked extension.</li>
+        <li>Select the "chrome" directory from your local source.</li>
     </ol>
 <h2>TODO</h2>
 <ul>
