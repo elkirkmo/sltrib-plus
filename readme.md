@@ -19,4 +19,5 @@
 <ul>
     <li>Update Favicon</li>
     <li>Port to Firefox</li>
+    <li>Enhance Photo Galleries on home page</li>
 </ul>
