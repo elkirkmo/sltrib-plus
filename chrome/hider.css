@@ -12,4 +12,16 @@
 
 .pull-left{display: none;}
 .content-full-article.col-md-8 { width: 100% !important;}
-p.TEXT_w_Indent {font-size: 20px !important; line-height: 30px !important; font-family: serif !important;}*/
+p.TEXT_w_Indent {font-size: 20px !important; line-height: 30px !important; font-family: serif !important;}
+
+.side-panel.hidden-sm.hidden-xs {right: -29px;}
+.side-panel.hidden-sm.hidden-xs:hover {
+	right: 0px !important; 
+	-webkit-transition: right 100ms linear;
+	-moz-transition: right 100ms linear;
+	transition: right 100ms linear;
+}
+
+img {
+	margin: 0 auto;
+}
