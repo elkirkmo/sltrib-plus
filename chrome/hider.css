@@ -6,7 +6,9 @@
 
 
 #main-content .col-md-16 {width: 100% !important;}
-/*.col-md-8.pull-right{display:none;}*/
+.col-md-8.pull-right.hidden-sm.hidden-xs{display:none;}
+.col-md-8.pull-right.content-area.content-articles-list {width:100%; display: none;}
+
 
 .pull-left{display: none;}
 .content-full-article.col-md-8 { width: 100% !important;}
