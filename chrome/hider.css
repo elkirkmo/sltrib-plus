@@ -1,10 +1,3 @@
-#header > #header-bottom-left {background-image: none !important; height: 50px !important;}
-#header > .pagename {margin-top:30px !important}
-.side a[href="https://www.reddit.com/r/exmormon/hot"] , .side a[href="https://mm.reddit.com/r/exmormon"] , .side a[href="https://nm.reddit.com/r/exmormon"] {
-		top: 52px !important;
-	}
-
-
 #main-content .col-md-16 {width: 100% !important;}
 .col-md-8.pull-right.hidden-sm.hidden-xs{display:none;}
 .col-md-8.pull-right.content-area.content-articles-list {width:100%; display: none;}
