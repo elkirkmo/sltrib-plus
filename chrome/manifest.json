@@ -7,7 +7,6 @@
 
 "permissions": [
 	"tabs",
-    "https://www.reddit.com/*",
     "http://www.sltrib.com/*"
   ],
   "content_scripts": [
