@@ -15,6 +15,6 @@
         <li>Click on the "Load unpacked extension..." button.</li>
         <li>Select the "chrome" directory from your local source.</li>
     </ol>
-*TODO*
--Port to Firefox
--Enhance Photo Galleries on home page
+###TODO
+*Port to Firefox
+*Enhance Photo Galleries on home page
