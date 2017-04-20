@@ -2,8 +2,13 @@
 	"manifest_version": 2,
 
 	"name" : "SLTrib+",
-	"description" : "Make The Trib Great Again",
-	"version" : "0.3",
+	"description" : "Modifies the look and feel of the Salt Lake Tribune, as well as providing some much needed performance enhancements.",
+	"version" : "0.4",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
 
 "permissions": [
 	"tabs",
@@ -18,7 +23,7 @@
     }],
  "page_action": 
  {
-	"default_icon": "favicon.png"
+	"default_icon": "128.png"
  }
 
 }
