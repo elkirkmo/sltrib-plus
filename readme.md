@@ -1,11 +1,9 @@
-# SLTrib Enhancer
-
+# SLTrib+
 
 ## Overview
 *An extension to update and beautify the reading experience of SLTrib.com - a fine news organization*
 
 This is a chrome extension that cleans up the design of the Salt Lake Tribune website. It also opens links by default in single page mode. Other fixes are coming. 
-
 
 ## Installation
 #### Chrome:
