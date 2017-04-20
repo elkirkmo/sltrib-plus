@@ -15,9 +15,6 @@
         <li>Click on the "Load unpacked extension..." button.</li>
         <li>Select the "chrome" directory from your local source.</li>
     </ol>
-<h2>TODO</h2>
-<ul>
-    <li>Update Favicon</li>
-    <li>Port to Firefox</li>
-    <li>Enhance Photo Galleries on home page</li>
-</ul>
+*TODO*
+-Port to Firefox
+-Enhance Photo Galleries on home page
