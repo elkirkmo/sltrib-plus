@@ -1,0 +1,23 @@
+{
+  "name": "sltrib-plus",
+  "version": "1.0.0",
+  "description": "## Overview *An extension to update and beautify the reading experience of SLTrib.com - a fine news organization*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://elkirkmo@github.com/elkirkmo/sltrib-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkirkmo/sltrib-plus/issues"
+  },
+  "homepage": "https://github.com/elkirkmo/sltrib-plus#readme",
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
+}
