@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/elkirkmo/sltrib-plus#readme",
   "devDependencies": {
+    "less": "^2.7.2",
     "typescript": "^2.2.2"
   }
 }
