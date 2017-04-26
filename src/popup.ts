@@ -2,8 +2,8 @@ var window: Window;
 var document: Document;
 let links = Array.prototype.slice.call(document.querySelectorAll('a'));
 let editorsPicks = <HTMLElement> document.querySelector('.col-md-8.pull-right.content-area.content-articles-list');
-let topFour = <HTMLElement> document.querySelector('.col-md-16.content-area.content-articles-grid-large.hidden-sm.hidden-xs');
 
+// make links open fullpage by default
 const addFullPage: Function = (linkList) => {
   if (window.location.host === 'www.sltrib.com') {
     for (let link of linkList) {
@@ -13,9 +13,15 @@ const addFullPage: Function = (linkList) => {
     }
   }
 }
-  addFullPage(links);
-  // append editor's picks after top 4 stories.
-  editorsPicks.cloneNode(true);
-  editorsPicks.parentNode.removeChild(editorsPicks);
-  topFour.appendChild(editorsPicks);
-  editorsPicks.setAttribute('style', 'display: block;');
+
+// append editor's picks after top 4 stories.
+const moveEditorsPicks: Function = (node) => {
+  const topFour = <HTMLElement> document.querySelector('.col-md-16.content-area.content-articles-grid-large.hidden-sm.hidden-xs');
+  node.cloneNode(true);
+  node.parentNode.removeChild(editorsPicks);
+  topFour.appendChild(node);
+  node.setAttribute('style', 'display: block;');
+}
+
+addFullPage(links);
+moveEditorsPicks(editorsPicks);
