@@ -5,16 +5,20 @@ const ts = require('gulp-typescript');
 const less = require('gulp-less');
 const tsProject = ts.createProject('tsconfig.json');
 const sequence = require('run-sequence');
+const uglify = require('gulp-uglify');
+const cleanCSS = require('gulp-clean-css');
 
 gulp.task('build-js', () => {
     return tsProject.src()
         .pipe(tsProject())
-        .js.pipe(gulp.dest('./build/chrome'));
+        .js.pipe(uglify())
+        .pipe(gulp.dest('./build/chrome'));
 });
 
 gulp.task('build-css', () => {
     return gulp.src('./src/*.less')
         .pipe(less())
+        .pipe(cleanCSS())
         .pipe(gulp.dest('./build/chrome'));
 });
 
