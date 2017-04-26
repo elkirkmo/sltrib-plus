@@ -19,4 +19,3 @@ const addFullPage: Function = (linkList) => {
   editorsPicks.parentNode.removeChild(editorsPicks);
   topFour.appendChild(editorsPicks);
   editorsPicks.setAttribute('style', 'display: block;');
-  console.log('here');

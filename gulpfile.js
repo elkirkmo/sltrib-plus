@@ -1,8 +1,11 @@
+'use strict';
+
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
 const less = require('gulp-less');
 const tsProject = ts.createProject('tsconfig.json');
 const sequence = require('run-sequence');
+
 gulp.task('build-js', () => {
     return tsProject.src()
         .pipe(tsProject())
@@ -23,6 +26,11 @@ gulp.task('add-favicons', () => {
 gulp.task('add-chrome-manifest', () => {
     return gulp.src('./browsers/chrome/manifest.json')
         .pipe(gulp.dest('./build/chrome'));
+});
+
+gulp.task('add-firefox-manifest', () => {
+    return gulp.src('./browsers/firefox/manifest.json')
+           .pipe(gulp.dest('./build/firefox'));
 });
 
 gulp.task('build-chrome', () => {
