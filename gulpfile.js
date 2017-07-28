@@ -11,7 +11,8 @@ const cleanCSS = require('gulp-clean-css');
 gulp.task('build-js', () => {
     return tsProject.src()
         .pipe(tsProject())
-        .js.pipe(uglify())
+        .js.pipe(gulp.dest('./src/popup.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('./build/chrome'));
 });
 
