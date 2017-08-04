@@ -3,7 +3,7 @@
 
 	"name" : "SLTrib+",
 	"description" : "Modifies the look and feel of the Salt Lake Tribune, as well as providing some much needed performance enhancements.",
-	"version" : "0.5",
+	"version" : "0.6",
   "icons": {
     "16": "16.png",
     "48": "48.png",
